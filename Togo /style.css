@@ -1,0 +1,58 @@
+h1{
+/* position: fixed; */
+text-align: center;
+border: 2px solid black;
+transition: transform 3s background 0.5s;
+background-color: blue;
+color: white;
+}
+.header{
+    position: relative;
+    background-color: aqua;
+}
+h1:hover{
+    transform: translateX(10px) ;
+    background:green
+}
+img{
+    transition:  transform 2s
+}
+img:hover{
+    transform: translateY(-20px);
+}
+ a{
+    background-color: blue;
+    border-radius: 15px;
+    /* display: inline-block; */
+    margin-left:5px ;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background 0.5s transform 3s;
+
+}
+a:hover{
+    background: greenyellow;
+    transform: rotateX(15deg);
+}
+/* *{
+    transition: transform 2s;
+}
+*:hover{
+    transform: translateX(10px);
+} */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.col-3{
+    flex-basis: 30%;
+    overflow: auto;
+    border: 2px solid blue;
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

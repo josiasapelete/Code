@@ -1,0 +1,43 @@
+body{
+    background-color:#F3AC3C ;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    display: grid;
+    grid-template: 2fr  1fr 1fr /2fr 1fr 2fr 1fr 2fr;
+    grid-template-areas: "tete tete tete tete tete"
+                        "gauche jaune jaune jaune droite"
+                        "gauche gjaune pied djaune droite"
+    ;
+}
+
+.box1{
+    grid-area:tete ;
+    background-color:#1A4341 ;
+}
+.box2{
+    grid-area:jaune ;
+    background-color: #998235;
+}
+.box3{
+    grid-area: pied;
+    background-color:#F3AC3C;
+}
+.box4{
+    grid-area:gauche ;
+    background-color:#1A4341 ;
+}
+.box5{
+    grid-area:droite ;
+    background-color:#1A4341 ;
+}
+.box6{
+    grid-area:gjaune ;
+    background-color: #998235;
+}
+.box7{
+    grid-area:djaune ;
+    background-color: #998235;
+}

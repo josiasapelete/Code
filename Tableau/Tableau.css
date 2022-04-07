@@ -1,0 +1,9 @@
+table,tr,td{
+    border: 1px solid rgb(6, 79, 215);
+    border-collapse: collapse;
+    padding: 2px;
+ }
+thead{ background-color: yellow;
+    font-weight: bold;
+    
+}

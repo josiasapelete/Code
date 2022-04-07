@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <h1>Formulaire DWWM</h1>
+    <form class="bg">
+        <label for="Nom">Nom</label>  <input type="text" placeholder="Entrez votre nom" required> <br>
+        <label for="email">Email</label> <input type="mail" placeholder="Entrez votre email " required> <br>
+        <label for="satisfaction">Indiquez votre satisfaction au cours de 1 à 10</label><br> <input type="number" 
+        placeholder="numéro de 1 à 10" required> <br>
+        <label for="coach">Qui est votre Coach?</label><br>
+        <select name="" id="coach">
+            <option value="">Birante</option>
+            <option value="MAlick Ba">Malick Ba</option>
+            <option value="Mamadou">Mamadou</option>
+        </select><br>
+        <label for="moment">A quel moment avez-vous cours?</label><br>
+        <blockquote> 
+            <input type="radio" name="m-m-s">Matin <br>
+            <input type="radio" name="m-m-s">Après-midi <br>
+            <input type="radio" name="m-m-s">Soir <br>
+        </blockquote>
+        <label for="outils">Quels outils avez-vous rencontrés jusque là? <br> 
+            (Selectionnez tout ce qui s'applique)</label> <br>
+        <blockquote> 
+            <input type="checkbox">HTML <br>
+            <input type="checkbox">CSS<br>
+            <input type="checkbox">javascript <br>
+            <input type="checkbox">Editeur de texte <br>
+            <input type="checkbox">Ligne de commande <br>
+        </blockquote>
+        <label for="experience">Décrivez votre expérience jusque là</label> <br>
+        <textarea name="" id="" cols="33" rows="6"placeholder="Décrivez votre expérience ici..." required></textarea> <br>
+        <input type="submit" class="bt">
+        
+        
+
+    </form>
+</body>
+</html>
