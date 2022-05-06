@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire DWWM </h1>
+    <form action="">
+        <table>
+            <tr>
+                <td class="jak" ><label for="">Nom</label></td> <td><input type="text" id="nom" placeholder="Entrez votre nom"></td>
+            </tr>
+            <tr>
+                <td class="jak" ><label for="">Email</label></td> <td><input type="mail" id="email" placeholder="Entrez votre email"></td>
+            </tr>
+            <tr>
+                <td class="jak" ><label for="">Indiquez votre satisfaction au cours de 1 à 10</label></td> <td><input type="number" id="note" placeholder="numéro de 1 à 10"></td>
+            </tr>
+            <tr>
+                <td class="jak" ><label for="">Qui est votre Coach</label></td> <td><select name="" id="coach">
+                    <option value="Birante">Birante</option> 
+                    <option value="Mamadou">Mamadou</option>  
+                    <option value="Malick">Malick</option> 
+                </select></td>
+            </tr>
+           
+            <tr>
+                <td class="jak" ><label for="">Décrivez votre expérience jusque là </label></td> <td><textarea name="" id="experience" cols="30" rows="6" placeholder="Décrivez votre expérience ici..."></textarea></td>
+            </tr>
+        </table>
+        <button type="button" onclick=afficher()>Vérifier</button>
+    </form>
+    <div>
+        <h2 class="username"></h2>
+        <h2 class="user_mail"></h2>
+        <h2 class="user_note"></h2>
+        <h2 class="user_coach"></h2>
+        <h2 class="user_experience"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

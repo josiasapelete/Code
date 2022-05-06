@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+body{
+    width: 50%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 30px;
+    height: 80%;
+    background-color:#A9D7E9 ;
+
+}
+form{
+    background-color: #F3F3F3;
+    width: 80%;
+    border-radius: 5%;
+   padding: 5%;
+}
+button{
+    background-color: #6BA2CE;
+    margin-left: 35%;
+    color: azure;
+}
+.jak{
+    text-align: right;
+    padding-right: 5%;
+}
+input{
+    margin: 10px;
+}
+div{
+    text-align: center;
+}
